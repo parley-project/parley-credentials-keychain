@@ -1,6 +1,6 @@
 # parley-credentials-keychain
 
-A [parley-files](https://github.com/tony-bringardner/parley-files) credential provider for the
+A [parley-files](https://github.com/parley-project/parley-files) credential provider for the
 operating system's keychain, part of **Parley**, a family of Java libraries for implementing internet
 protocols. A secret connection setting (an SFTP, FTP or JDBC password, say) can name a keychain entry
 instead of holding the password:
