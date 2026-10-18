@@ -13,7 +13,7 @@
 	</parent>
 
 	<artifactId>parley-credentials-keychain</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>Parley Credentials Keychain</name>
 	<description>A parley-files credential provider for the operating system's keychain: the macOS
 		Keychain, the Linux Secret Service (GNOME Keyring, KWallet) and the Windows Credential Manager.
@@ -60,7 +60,7 @@
 		</plugins>
 	</build>
 
-	<!-- GitHub Packages, used by release.sh. Maven Central releases use: mvn -Prelease clean deploy -->
+	<!-- GitHub Packages. Maven Central releases use: mvn -Prelease clean deploy -->
 	<distributionManagement>
 		<repository>
 			<id>github</id>

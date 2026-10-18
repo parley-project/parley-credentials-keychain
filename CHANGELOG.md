@@ -1,6 +1,6 @@
 # Changelog
 
-## parley-credentials-keychain 1.0.0 (unreleased)
+## parley-credentials-keychain 1.0.0 (2026-10-18)
 
 First release.
 
