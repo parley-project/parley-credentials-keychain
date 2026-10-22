@@ -13,7 +13,6 @@
 	</parent>
 
 	<artifactId>parley-credentials-keychain</artifactId>
-	<version>2.0.0-SNAPSHOT</version>
 	<name>Parley Credentials Keychain</name>
 	<description>A parley-files credential provider for the operating system's keychain: the macOS
 		Keychain, the Linux Secret Service (GNOME Keyring, KWallet) and the Windows Credential Manager.
@@ -74,7 +73,7 @@
 		<dependency>
 			<groupId>us.bringardner.parley</groupId>
 			<artifactId>parley-files</artifactId>
-			<version>2.0.0-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 		<!-- macOS Keychain, Linux Secret Service and Windows Credential Manager behind one API -->
 		<dependency>
